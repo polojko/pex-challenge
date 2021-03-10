@@ -1,0 +1,14 @@
+{
+  "name": "pex-challenge",
+  "version": "1.0.0",
+  "description": "Pex challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Paja Stankov",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12"
+  }
+}
