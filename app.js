@@ -3,8 +3,8 @@ const Immutable = require('immutable');
 /**
  * Helper function that converts object to nested or flat object
  * Concatenates error messages
- * @param {object} obj      original object
- * @returns {object} transformed object
+ * @param {object} obj  original object
+ * @returns {object}    transformed object
  */
 const convertToNestedStructure = function (obj) {
     return obj.map(item => {
@@ -20,7 +20,7 @@ const convertToNestedStructure = function (obj) {
 /**
  * Helper function that removes dups, flattens and joins obj to string
  * @param {object} obj    original object
- * @returns {object}      tranformed object
+ * @returns {object}      tranformed string
  */
 const convertToFlatStructure = function (obj) {
     return obj
