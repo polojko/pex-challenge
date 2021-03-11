@@ -20,7 +20,7 @@ const convertToNestedStructure = function (obj) {
 /**
  * Helper function that removes dups, flattens and joins obj to string
  * @param {object} obj    original object
- * @returns {object}      tranformed string
+ * @returns {object}      transformed object
  */
 const convertToFlatStructure = function (obj) {
     return obj
@@ -34,7 +34,7 @@ const convertToFlatStructure = function (obj) {
  * Tranforms errors to spec
  * @param  {object} obj   original object
  * @param  {string} keys  keys to skip
- * @return {object}       transformed object
+ * @returns {object}       transformed object
  */
 const transformErrors = function (obj, ...keys) {
     return obj
