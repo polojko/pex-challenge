@@ -4,11 +4,16 @@
   "description": "Pex challenge",
   "main": "app.js",
   "scripts": {
+    "start": "npm i && npm test",
     "test": "mocha"
   },
-  "author": "Paja Stankov",
+  "author": "polojko",
   "license": "ISC",
   "dependencies": {
     "immutable": "^4.0.0-rc.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polojko/pex-challenge.git"
   }
 }
